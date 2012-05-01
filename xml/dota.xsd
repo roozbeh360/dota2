@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://clentfort.github.com/dota2/dota"
+	elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema"
+	xmlns:tns="http://clentfort.github.com/dota2/dota">
+
+	<attribute name="damageType" default="physical">
+		<simpleType>
+			<restriction base="string">
+				<enumeration value="physical" />
+				<enumeration value="magical" />
+				<enumeration value="pure" />
+				<enumeration value="hpRemoval" />
+				<enumeration value="composite" />
+			</restriction>
+		</simpleType>
+	</attribute>
+
+	<attribute name="movementCapabilitie" default="none">
+		<simpleType>
+			<restriction base="string">
+				<enumeration value="none" />
+				<enumeration value="ground" />
+				<enumeration value="air" />
+			</restriction>
+		</simpleType>
+	</attribute>
+
+	<attribute name="attackCapabilitie" default="none">
+		<simpleType>
+			<restriction base="string">
+				<enumeration value="none" />
+				<enumeration value="ranged" />
+				<enumeration value="melee" />
+			</restriction>
+		</simpleType>
+	</attribute>
+
+
+	<complexType name="unitAttribute">
+		<sequence>
+			<element name="base" type="int" />
+			<element name="gain" type="float" />
+		</sequence>
+
+	</complexType>
+
+	<complexType name="ability">
+		<sequence>
+			<element name="name" type="string" />
+			<element name="type" type="tns:abilityType" />
+			<element name="behavior" type="tns:abilityBehavior" />
+			<element name="castRange" type="tns:abilityLevelBasedType"
+				maxOccurs="4" />
+
+			<element name="channelTime" type="tns:abilityLevelBasedType"
+				maxOccurs="4" />
+
+			<element name="cooldown" type="tns:abilityLevelBasedType"
+				maxOccurs="4" />
+
+			<element name="duration" type="tns:abilityLevelBasedType"
+				maxOccurs="4" />
+
+			<element name="damage" type="tns:abilityLevelBasedType"
+				maxOccurs="4" />
+
+			<element name="manacost" type="tns:abilityLevelBasedType"
+				maxOccurs="4" />
+
+			<element name="special" type="tns:abilitySpecial" maxOccurs="unbounded" />
+		</sequence>
+		<attribute name="id" type="ID" />
+	</complexType>
+
+	<complexType name="unitStatus">
+		<sequence>
+			<element name="base" type="int" />
+			<element name="regeneration" type="float" />
+		</sequence>
+	</complexType>
+
+	<complexType name="unit">
+		<sequence>
+			<element name="name" type="string" />
+			<element name="abilities">
+				<complexType>
+					<sequence>
+						<element name="ability" type="tns:ability" maxOccurs="unbounded"
+							minOccurs="0" />
+
+					</sequence>
+				</complexType>
+			</element>
+			<element name="armor">
+				<complexType>
+					<sequence>
+						<element name="physical" type="int" />
+						<element name="magical" type="int" />
+					</sequence>
+				</complexType>
+			</element>
+			<element name="attack">
+				<complexType>
+					<sequence>
+						<element name="damage">
+							<complexType>
+								<sequence>
+									<element name="max" type="int" />
+									<element name="min" type="int" />
+								</sequence>
+								<attribute ref="tns:damageType" />
+							</complexType>
+						</element>
+						<element name="rate" type="float" />
+						<element name="range" type="float" />
+						<element name="projectileSpeed" type="string" />
+					</sequence>
+					<attribute ref="tns:attackCapabilitie" />
+				</complexType>
+			</element>
+			<element name="attributes">
+				<complexType>
+					<sequence>
+						<element name="strength" type="tns:unitAttribute" />
+
+						<element name="intelligence" type="tns:unitAttribute" />
+
+						<element name="agility" type="tns:unitAttribute" />
+
+					</sequence>
+					<attribute name="primary" use="optional" default="strength">
+						<simpleType>
+							<restriction base="string">
+								<enumeration value="strength" />
+								<enumeration value="intelligence" />
+								<enumeration value="agility" />
+							</restriction>
+						</simpleType>
+					</attribute>
+				</complexType>
+			</element>
+			<element name="bounty">
+				<complexType>
+					<sequence>
+						<element name="xp" type="int" />
+						<element name="gold">
+							<complexType>
+								<sequence>
+									<element name="max" type="int" />
+
+									<element name="min" type="int" />
+
+								</sequence>
+							</complexType>
+						</element>
+					</sequence>
+				</complexType>
+			</element>
+			<element name="movement">
+				<complexType>
+					<sequence>
+						<element name="speed" type="int" />
+						<element name="turnRate" type="float" />
+					</sequence>
+				</complexType>
+			</element>
+			<element name="stats">
+				<complexType>
+					<sequence>
+						<element name="health" type="tns:unitStatus" />
+						<element name="mana" type="tns:unitStatus" />
+					</sequence>
+				</complexType>
+			</element>
+			<element name="vision">
+				<complexType>
+					<sequence>
+						<element name="day" type="int" />
+						<element name="night" type="int" />
+					</sequence>
+				</complexType>
+			</element>
+		</sequence>
+
+		<attribute name="neutral" type="boolean" use="optional"
+			default="false" />
+
+		<attribute name="ancient" type="boolean" use="optional"
+			default="false" />
+	</complexType>
+
+	<complexType name="hero">
+		<complexContent>
+			<extension base="tns:unit">
+				<sequence>
+					<element name="id" type="int" />
+					<element name="alias" type="string" />
+					<element name="role" type="tns:heroRole" />
+				</sequence>
+			</extension>
+		</complexContent>
+	</complexType>
+
+
+	<simpleType name="heroRole">
+		<restriction base="string">
+			<enumeration value="carry" />
+			<enumeration value="initiator" />
+			<enumeration value="ganker" />
+			<enumeration value="support" />
+			<enumeration value="pusher" />
+		</restriction>
+	</simpleType>
+
+	<simpleType name="abilityType">
+		<restriction base="string" />
+	</simpleType>
+
+	<simpleType name="abilityBehavior">
+		<restriction base="string" />
+	</simpleType>
+
+	<complexType name="abilityLevelBasedType">
+		<simpleContent>
+			<extension base="float">
+				<attribute name="level" type="int" use="required" />
+			</extension>
+		</simpleContent>
+	</complexType>
+
+	<complexType name="item">
+		<complexContent>
+			<extension base="tns:ability">
+				<sequence>
+					<element name="cost" type="int" />
+					<element name="initialCharges" type="int" />
+					<element name="combineable" type="boolean" />
+					<element name="permanent" type="boolean" />
+					<element name="stackable" type="boolean" />
+					<element name="recipe" type="boolean" />
+					<element name="droppable" type="boolean" />
+					<element name="purchasable" type="boolean" />
+					<element name="sellable" type="boolean" />
+					<element name="requiresCharges" type="boolean" />
+
+					<element name="killable" type="boolean" />
+					<element name="disassemblable" type="boolean" />
+					<element name="shareability" type="tns:itemShareability" />
+
+				</sequence>
+			</extension>
+		</complexContent>
+	</complexType>
+
+	<simpleType name="itemShareability">
+		<restriction base="string" />
+	</simpleType>
+
+	<complexType name="abilitySpecial">
+		<sequence>
+			<element name="type" type="string" />
+			<element name="name" type="string" />
+			<element name="value" type="string" />
+		</sequence>
+	</complexType>
+
+
+	<element name="heroes">
+		<complexType>
+			<sequence>
+				<element name="hero" type="tns:hero" maxOccurs="unbounded" minOccurs="0"></element>
+			</sequence>
+		</complexType>
+	</element>
+	<element name="units">
+		<complexType>
+			<sequence>
+				<element name="unit" type="tns:unit" maxOccurs="unbounded" minOccurs="0"></element>
+			</sequence>
+		</complexType>
+	</element>
+	<element name="items">
+		<complexType>
+			<sequence>
+				<element name="item" type="tns:item" maxOccurs="unbounded" minOccurs="0"></element>
+			</sequence>
+		</complexType>
+	</element>
+	<element name="abilities">
+		<complexType>
+			<sequence>
+				<element name="ability" type="tns:ability" maxOccurs="unbounded" minOccurs="0"></element>
+			</sequence>
+		</complexType>
+	</element>
+
+</schema>
