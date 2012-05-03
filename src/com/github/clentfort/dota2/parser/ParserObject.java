@@ -128,7 +128,7 @@ public class ParserObject {
     /**
      * The map where the ParserObject's properties are kept.
      */
-    private final Map<String, Vector> map;
+    private final Map<String, Object> map;
 
 
     /**
@@ -285,11 +285,11 @@ public class ParserObject {
         Object object = this.get(key);
         if (object.equals(Boolean.FALSE) ||
                 (object instanceof String &&
-                ((String)object).equalsIgnoreCase("false"))) {
+                ((String)object).equalsIgnoreCase("0"))) {
             return false;
         } else if (object.equals(Boolean.TRUE) ||
                 (object instanceof String &&
-                ((String)object).equalsIgnoreCase("true"))) {
+                ((String)object).equalsIgnoreCase("1"))) {
             return true;
         }
         throw new ParserException("ParserObject[" + quote(key) +
@@ -308,8 +308,11 @@ public class ParserObject {
         Object object = this.get(key);
         try {
             return object instanceof Number
-                ? ((Number)object).doubleValue()
-                : Double.parseDouble((String)object);
+                ? ((Number)object).doubleValue() :
+                (!((String)object).equals("")) ?   
+        		Double.parseDouble((String)object) :
+                new Double(0);
+                //: Double.parseDouble((String)object);
         } catch (Exception e) {
             throw new ParserException("ParserObject[" + quote(key) +
                 "] is not a number.");
@@ -329,8 +332,10 @@ public class ParserObject {
         Object object = this.get(key);
         try {
             return object instanceof Number
-                ? ((Number)object).intValue()
-                : Integer.parseInt((String)object);
+                ? ((Number)object).intValue() :
+                (!((String)object).equals("")) ?   
+                Integer.parseInt((String)object) :
+            	new Integer(0);
         } catch (Exception e) {
             throw new ParserException("ParserObject[" + quote(key) +
                 "] is not an int.");
@@ -367,8 +372,11 @@ public class ParserObject {
         Object object = this.get(key);
         try {
             return object instanceof Number
-                ? ((Number)object).longValue()
-                : Long.parseLong((String)object);
+                ? ((Number)object).longValue() :
+                (!((String)object).equals("")) ?   
+        		Long.parseLong((String)object) :
+            	new Long(0);
+                //: Long.parseLong((String)object);
         } catch (Exception e) {
             throw new ParserException("ParserObject[" + quote(key) +
                 "] is not a long.");
@@ -732,6 +740,8 @@ public class ParserObject {
             throw new ParserException("Null key.");
         }
         if (value != null) {
+        	this.map.put(key, value);
+        	/*
         	if (this.map.containsKey(key)) {
         		this.map.get(key).add(value);
         	}
@@ -739,7 +749,7 @@ public class ParserObject {
         		Vector v = new Vector();
         		v.add(value);
         		this.map.put(key, v);
-        	}
+        	}*/
         } else {
             this.remove(key);
         }

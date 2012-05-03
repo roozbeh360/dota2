@@ -6,11 +6,12 @@
 	<attribute name="damageType" default="physical">
 		<simpleType>
 			<restriction base="string">
-				<enumeration value="physical" />
-				<enumeration value="magical" />
-				<enumeration value="pure" />
-				<enumeration value="hpRemoval" />
-				<enumeration value="composite" />
+				<enumeration value="DAMAGE_TYPE_ArmorPhysical" />
+				<enumeration value="DAMAGE_TYPE_PHYSICAL" />
+				<enumeration value="DAMAGE_TYPE_MAGICAL" />
+				<enumeration value="DAMAGE_TYPE_PURE" />
+				<enumeration value="DAMAGE_TYPE_HP_REMOVAL" />
+				<enumeration value="DAMAGE_TYPE_COMPOSITE" />
 			</restriction>
 		</simpleType>
 	</attribute>
@@ -18,9 +19,9 @@
 	<attribute name="movementCapabilitie" default="none">
 		<simpleType>
 			<restriction base="string">
-				<enumeration value="none" />
-				<enumeration value="ground" />
-				<enumeration value="air" />
+				<enumeration value="DOTA_UNIT_CAP_MOVE_NONE" />
+				<enumeration value="DOTA_UNIT_CAP_MOVE_GROUND" />
+				<enumeration value="DOTA_UNIT_CAP_MOVE_FLY" />
 			</restriction>
 		</simpleType>
 	</attribute>
@@ -28,9 +29,9 @@
 	<attribute name="attackCapabilitie" default="none">
 		<simpleType>
 			<restriction base="string">
-				<enumeration value="none" />
-				<enumeration value="ranged" />
-				<enumeration value="melee" />
+				<enumeration value="DOTA_UNIT_CAP_NO_ATTACK" />
+				<enumeration value="DOTA_UNIT_CAP_RANGED_ATTACK" />
+				<enumeration value="DOTA_UNIT_CAP_MELEE_ATTACK" />
 			</restriction>
 		</simpleType>
 	</attribute>
@@ -39,7 +40,7 @@
 	<complexType name="unitAttribute">
 		<sequence>
 			<element name="base" type="int" />
-			<element name="gain" type="float" />
+			<element name="gain" type="double" />
 		</sequence>
 
 	</complexType>
@@ -75,18 +76,19 @@
 	<complexType name="unitStatus">
 		<sequence>
 			<element name="base" type="int" />
-			<element name="regeneration" type="float" />
+			<element name="regeneration" type="double" />
 		</sequence>
 	</complexType>
 
 	<complexType name="unit">
 		<sequence>
 			<element name="name" type="string" />
-			<element name="abilities">
+            <element name="level" type="int"></element>
+            <element name="abilities">
 				<complexType>
 					<sequence>
-						<element name="ability" type="tns:ability" maxOccurs="unbounded"
-							minOccurs="0" />
+						<element name="ability" type="string"
+							maxOccurs="unbounded" minOccurs="0" />
 
 					</sequence>
 				</complexType>
@@ -111,9 +113,9 @@
 								<attribute ref="tns:damageType" />
 							</complexType>
 						</element>
-						<element name="rate" type="float" />
-						<element name="range" type="float" />
-						<element name="projectileSpeed" type="string" />
+						<element name="rate" type="double" />
+						<element name="range" type="int" />
+						<element name="projectileSpeed" type="int" />
 					</sequence>
 					<attribute ref="tns:attackCapabilitie" />
 				</complexType>
@@ -121,19 +123,23 @@
 			<element name="attributes">
 				<complexType>
 					<sequence>
-						<element name="strength" type="tns:unitAttribute" />
+						<element name="strength"
+							type="tns:unitAttribute" />
 
-						<element name="intelligence" type="tns:unitAttribute" />
+						<element name="intelligence"
+							type="tns:unitAttribute" />
 
-						<element name="agility" type="tns:unitAttribute" />
+						<element name="agility"
+							type="tns:unitAttribute" />
 
 					</sequence>
-					<attribute name="primary" use="optional" default="strength">
+					<attribute name="primary" use="optional"
+						default="DOTA_ATTRIBUTE_STRENGTH">
 						<simpleType>
 							<restriction base="string">
-								<enumeration value="strength" />
-								<enumeration value="intelligence" />
-								<enumeration value="agility" />
+								<enumeration value="DOTA_ATTRIBUTE_STRENGTH" />
+								<enumeration value="DOTA_ATTRIBUTE_INTELLECT" />
+								<enumeration value="DOTA_ATTRIBUTE_AGILITY" />
 							</restriction>
 						</simpleType>
 					</attribute>
@@ -160,7 +166,7 @@
 				<complexType>
 					<sequence>
 						<element name="speed" type="int" />
-						<element name="turnRate" type="float" />
+						<element name="turnRate" type="double" />
 					</sequence>
 				</complexType>
 			</element>
@@ -222,7 +228,7 @@
 
 	<complexType name="abilityLevelBasedType">
 		<simpleContent>
-			<extension base="float">
+			<extension base="double">
 				<attribute name="level" type="int" use="required" />
 			</extension>
 		</simpleContent>
