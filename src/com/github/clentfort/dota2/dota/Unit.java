@@ -2,7 +2,7 @@
 // Diese Datei wurde mit der JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.2.5 generiert 
 // Siehe <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
-// Generiert: 2012.05.03 um 10:14:43 PM CEST 
+// Generiert: 2012.05.04 um 11:53:55 AM CEST 
 //
 
 
@@ -47,8 +47,8 @@ import javax.xml.bind.annotation.XmlType;
  *             &lt;complexContent>
  *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *                 &lt;sequence>
- *                   &lt;element name="physical" type="{http://www.w3.org/2001/XMLSchema}int"/>
- *                   &lt;element name="magical" type="{http://www.w3.org/2001/XMLSchema}int"/>
+ *                   &lt;element name="physical" type="{http://www.w3.org/2001/XMLSchema}double"/>
+ *                   &lt;element name="magical" type="{http://www.w3.org/2001/XMLSchema}double"/>
  *                 &lt;/sequence>
  *               &lt;/restriction>
  *             &lt;/complexContent>
@@ -76,7 +76,7 @@ import javax.xml.bind.annotation.XmlType;
  *                   &lt;element name="range" type="{http://www.w3.org/2001/XMLSchema}int"/>
  *                   &lt;element name="projectileSpeed" type="{http://www.w3.org/2001/XMLSchema}int"/>
  *                 &lt;/sequence>
- *                 &lt;attribute ref="{http://clentfort.github.com/dota2/dota}attackCapabilitie"/>
+ *                 &lt;attribute ref="{http://clentfort.github.com/dota2/dota}attackCapabilities"/>
  *               &lt;/restriction>
  *             &lt;/complexContent>
  *           &lt;/complexType>
@@ -134,6 +134,7 @@ import javax.xml.bind.annotation.XmlType;
  *                   &lt;element name="speed" type="{http://www.w3.org/2001/XMLSchema}int"/>
  *                   &lt;element name="turnRate" type="{http://www.w3.org/2001/XMLSchema}double"/>
  *                 &lt;/sequence>
+ *                 &lt;attribute ref="{http://clentfort.github.com/dota2/dota}movementCapabilities"/>
  *               &lt;/restriction>
  *             &lt;/complexContent>
  *           &lt;/complexType>
@@ -752,8 +753,8 @@ public class Unit implements Cloneable
      *   &lt;complexContent>
      *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
      *       &lt;sequence>
-     *         &lt;element name="physical" type="{http://www.w3.org/2001/XMLSchema}int"/>
-     *         &lt;element name="magical" type="{http://www.w3.org/2001/XMLSchema}int"/>
+     *         &lt;element name="physical" type="{http://www.w3.org/2001/XMLSchema}double"/>
+     *         &lt;element name="magical" type="{http://www.w3.org/2001/XMLSchema}double"/>
      *       &lt;/sequence>
      *     &lt;/restriction>
      *   &lt;/complexContent>
@@ -770,8 +771,8 @@ public class Unit implements Cloneable
     public static class Armor implements Cloneable
     {
 
-        protected int physical;
-        protected int magical;
+        protected double physical;
+        protected double magical;
 
         /**
          * Creates a new {@code Armor} instance.
@@ -797,9 +798,9 @@ public class Unit implements Cloneable
             if (o == null) {
                 throw new NullPointerException("Cannot create a copy of 'Armor' from 'null'.");
             }
-            // CBuiltinLeafInfo: java.lang.Integer
+            // CBuiltinLeafInfo: java.lang.Double
             this.physical = o.getPhysical();
-            // CBuiltinLeafInfo: java.lang.Integer
+            // CBuiltinLeafInfo: java.lang.Double
             this.magical = o.getMagical();
         }
 
@@ -807,7 +808,7 @@ public class Unit implements Cloneable
          * Ruft den Wert der physical-Eigenschaft ab.
          * 
          */
-        public int getPhysical() {
+        public double getPhysical() {
             return physical;
         }
 
@@ -815,7 +816,7 @@ public class Unit implements Cloneable
          * Legt den Wert der physical-Eigenschaft fest.
          * 
          */
-        public void setPhysical(int value) {
+        public void setPhysical(double value) {
             this.physical = value;
         }
 
@@ -823,7 +824,7 @@ public class Unit implements Cloneable
          * Ruft den Wert der magical-Eigenschaft ab.
          * 
          */
-        public int getMagical() {
+        public double getMagical() {
             return magical;
         }
 
@@ -831,7 +832,7 @@ public class Unit implements Cloneable
          * Legt den Wert der magical-Eigenschaft fest.
          * 
          */
-        public void setMagical(int value) {
+        public void setMagical(double value) {
             this.magical = value;
         }
 
@@ -848,9 +849,9 @@ public class Unit implements Cloneable
                 {
                     // CC-XJC Version 2.0.1 Build 2012-03-02T12:09:12+0000
                     final Unit.Armor clone = ((Unit.Armor) super.clone());
-                    // CBuiltinLeafInfo: java.lang.Integer
+                    // CBuiltinLeafInfo: java.lang.Double
                     clone.physical = this.getPhysical();
-                    // CBuiltinLeafInfo: java.lang.Integer
+                    // CBuiltinLeafInfo: java.lang.Double
                     clone.magical = this.getMagical();
                     return clone;
                 }
@@ -890,7 +891,7 @@ public class Unit implements Cloneable
      *         &lt;element name="range" type="{http://www.w3.org/2001/XMLSchema}int"/>
      *         &lt;element name="projectileSpeed" type="{http://www.w3.org/2001/XMLSchema}int"/>
      *       &lt;/sequence>
-     *       &lt;attribute ref="{http://clentfort.github.com/dota2/dota}attackCapabilitie"/>
+     *       &lt;attribute ref="{http://clentfort.github.com/dota2/dota}attackCapabilities"/>
      *     &lt;/restriction>
      *   &lt;/complexContent>
      * &lt;/complexType>
@@ -913,8 +914,8 @@ public class Unit implements Cloneable
         protected double rate;
         protected int range;
         protected int projectileSpeed;
-        @XmlAttribute(name = "attackCapabilitie", namespace = "http://clentfort.github.com/dota2/dota")
-        protected String attackCapabilitie;
+        @XmlAttribute(name = "attackCapabilities", namespace = "http://clentfort.github.com/dota2/dota")
+        protected String attackCapabilities;
 
         /**
          * Creates a new {@code Attack} instance.
@@ -949,7 +950,7 @@ public class Unit implements Cloneable
             // CBuiltinLeafInfo: java.lang.Integer
             this.projectileSpeed = o.getProjectileSpeed();
             // CBuiltinLeafInfo: java.lang.String
-            this.attackCapabilitie = ((o.attackCapabilitie == null)?null:o.getAttackCapabilitie());
+            this.attackCapabilities = ((o.attackCapabilities == null)?null:o.getAttackCapabilities());
         }
 
         /**
@@ -1025,31 +1026,31 @@ public class Unit implements Cloneable
         }
 
         /**
-         * Ruft den Wert der attackCapabilitie-Eigenschaft ab.
+         * Ruft den Wert der attackCapabilities-Eigenschaft ab.
          * 
          * @return
          *     possible object is
          *     {@link String }
          *     
          */
-        public String getAttackCapabilitie() {
-            if (attackCapabilitie == null) {
-                return "none";
+        public String getAttackCapabilities() {
+            if (attackCapabilities == null) {
+                return "DOTA_UNIT_CAP_NO_ATTACK";
             } else {
-                return attackCapabilitie;
+                return attackCapabilities;
             }
         }
 
         /**
-         * Legt den Wert der attackCapabilitie-Eigenschaft fest.
+         * Legt den Wert der attackCapabilities-Eigenschaft fest.
          * 
          * @param value
          *     allowed object is
          *     {@link String }
          *     
          */
-        public void setAttackCapabilitie(String value) {
-            this.attackCapabilitie = value;
+        public void setAttackCapabilities(String value) {
+            this.attackCapabilities = value;
         }
 
         /**
@@ -1074,7 +1075,7 @@ public class Unit implements Cloneable
                     // CBuiltinLeafInfo: java.lang.Integer
                     clone.projectileSpeed = this.getProjectileSpeed();
                     // CBuiltinLeafInfo: java.lang.String
-                    clone.attackCapabilitie = ((this.attackCapabilitie == null)?null:this.getAttackCapabilitie());
+                    clone.attackCapabilities = ((this.attackCapabilities == null)?null:this.getAttackCapabilities());
                     return clone;
                 }
             } catch (CloneNotSupportedException e) {
@@ -1192,7 +1193,7 @@ public class Unit implements Cloneable
              */
             public String getDamageType() {
                 if (damageType == null) {
-                    return "physical";
+                    return "DAMAGE_TYPE_ArmorPhysical";
                 } else {
                     return damageType;
                 }
@@ -1731,6 +1732,7 @@ public class Unit implements Cloneable
      *         &lt;element name="speed" type="{http://www.w3.org/2001/XMLSchema}int"/>
      *         &lt;element name="turnRate" type="{http://www.w3.org/2001/XMLSchema}double"/>
      *       &lt;/sequence>
+     *       &lt;attribute ref="{http://clentfort.github.com/dota2/dota}movementCapabilities"/>
      *     &lt;/restriction>
      *   &lt;/complexContent>
      * &lt;/complexType>
@@ -1748,6 +1750,8 @@ public class Unit implements Cloneable
 
         protected int speed;
         protected double turnRate;
+        @XmlAttribute(name = "movementCapabilities", namespace = "http://clentfort.github.com/dota2/dota")
+        protected String movementCapabilities;
 
         /**
          * Creates a new {@code Movement} instance.
@@ -1777,6 +1781,8 @@ public class Unit implements Cloneable
             this.speed = o.getSpeed();
             // CBuiltinLeafInfo: java.lang.Double
             this.turnRate = o.getTurnRate();
+            // CBuiltinLeafInfo: java.lang.String
+            this.movementCapabilities = ((o.movementCapabilities == null)?null:o.getMovementCapabilities());
         }
 
         /**
@@ -1812,6 +1818,34 @@ public class Unit implements Cloneable
         }
 
         /**
+         * Ruft den Wert der movementCapabilities-Eigenschaft ab.
+         * 
+         * @return
+         *     possible object is
+         *     {@link String }
+         *     
+         */
+        public String getMovementCapabilities() {
+            if (movementCapabilities == null) {
+                return "DOTA_UNIT_CAP_MOVE_NONE";
+            } else {
+                return movementCapabilities;
+            }
+        }
+
+        /**
+         * Legt den Wert der movementCapabilities-Eigenschaft fest.
+         * 
+         * @param value
+         *     allowed object is
+         *     {@link String }
+         *     
+         */
+        public void setMovementCapabilities(String value) {
+            this.movementCapabilities = value;
+        }
+
+        /**
          * Creates and returns a deep copy of this object.
          * 
          * 
@@ -1828,6 +1862,8 @@ public class Unit implements Cloneable
                     clone.speed = this.getSpeed();
                     // CBuiltinLeafInfo: java.lang.Double
                     clone.turnRate = this.getTurnRate();
+                    // CBuiltinLeafInfo: java.lang.String
+                    clone.movementCapabilities = ((this.movementCapabilities == null)?null:this.getMovementCapabilities());
                     return clone;
                 }
             } catch (CloneNotSupportedException e) {

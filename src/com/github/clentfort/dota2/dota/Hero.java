@@ -2,7 +2,7 @@
 // Diese Datei wurde mit der JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.2.5 generiert 
 // Siehe <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
-// Generiert: 2012.05.03 um 10:14:43 PM CEST 
+// Generiert: 2012.05.04 um 11:53:55 AM CEST 
 //
 
 
@@ -62,7 +62,7 @@ public class Hero
     }
 
     /**
-     * Creates a new {@code Hero} instance by deeply copying a given {@code Hero} instance.
+     * Creates a new {@code Hero} instance by deeply copying a given {@code Unit} instance.
      * 
      * 
      * @param o
@@ -70,18 +70,20 @@ public class Hero
      * @throws NullPointerException
      *     if {@code o} is {@code null}.
      */
-    public Hero(final Hero o) {
+    public Hero(final Unit o) {
         // CC-XJC Version 2.0.1 Build 2012-03-02T12:09:12+0000
         super(o);
         if (o == null) {
             throw new NullPointerException("Cannot create a copy of 'Hero' from 'null'.");
         }
-        // CBuiltinLeafInfo: java.lang.Integer
-        this.id = o.getId();
-        // CBuiltinLeafInfo: java.lang.String
-        this.alias = ((o.alias == null)?null:o.getAlias());
-        // CEnumLeafInfo: com.github.clentfort.dota2.dota.HeroRole
-        this.role = ((o.role == null)?null:o.getRole());
+        if (o instanceof Hero) {
+            // CBuiltinLeafInfo: java.lang.Integer
+            this.id = ((Hero) o).getId();
+            // CBuiltinLeafInfo: java.lang.String
+            this.alias = ((((Hero) o).alias == null)?null:((Hero) o).getAlias());
+            // CEnumLeafInfo: com.github.clentfort.dota2.dota.HeroRole
+            this.role = ((((Hero) o).role == null)?null:((Hero) o).getRole());
+        }
     }
 
     /**

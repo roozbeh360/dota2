@@ -2,7 +2,7 @@
 // Diese Datei wurde mit der JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.2.5 generiert 
 // Siehe <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
-// Generiert: 2012.05.03 um 10:14:43 PM CEST 
+// Generiert: 2012.05.04 um 11:53:55 AM CEST 
 //
 
 
@@ -91,7 +91,7 @@ public class Item
     }
 
     /**
-     * Creates a new {@code Item} instance by deeply copying a given {@code Item} instance.
+     * Creates a new {@code Item} instance by deeply copying a given {@code Ability} instance.
      * 
      * 
      * @param o
@@ -99,38 +99,40 @@ public class Item
      * @throws NullPointerException
      *     if {@code o} is {@code null}.
      */
-    public Item(final Item o) {
+    public Item(final Ability o) {
         // CC-XJC Version 2.0.1 Build 2012-03-02T12:09:12+0000
         super(o);
         if (o == null) {
             throw new NullPointerException("Cannot create a copy of 'Item' from 'null'.");
         }
-        // CBuiltinLeafInfo: java.lang.Integer
-        this.cost = o.getCost();
-        // CBuiltinLeafInfo: java.lang.Integer
-        this.initialCharges = o.getInitialCharges();
-        // CBuiltinLeafInfo: java.lang.Boolean
-        this.combineable = o.isCombineable();
-        // CBuiltinLeafInfo: java.lang.Boolean
-        this.permanent = o.isPermanent();
-        // CBuiltinLeafInfo: java.lang.Boolean
-        this.stackable = o.isStackable();
-        // CBuiltinLeafInfo: java.lang.Boolean
-        this.recipe = o.isRecipe();
-        // CBuiltinLeafInfo: java.lang.Boolean
-        this.droppable = o.isDroppable();
-        // CBuiltinLeafInfo: java.lang.Boolean
-        this.purchasable = o.isPurchasable();
-        // CBuiltinLeafInfo: java.lang.Boolean
-        this.sellable = o.isSellable();
-        // CBuiltinLeafInfo: java.lang.Boolean
-        this.requiresCharges = o.isRequiresCharges();
-        // CBuiltinLeafInfo: java.lang.Boolean
-        this.killable = o.isKillable();
-        // CBuiltinLeafInfo: java.lang.Boolean
-        this.disassemblable = o.isDisassemblable();
-        // CBuiltinLeafInfo: java.lang.String
-        this.shareability = ((o.shareability == null)?null:o.getShareability());
+        if (o instanceof Item) {
+            // CBuiltinLeafInfo: java.lang.Integer
+            this.cost = ((Item) o).getCost();
+            // CBuiltinLeafInfo: java.lang.Integer
+            this.initialCharges = ((Item) o).getInitialCharges();
+            // CBuiltinLeafInfo: java.lang.Boolean
+            this.combineable = ((Item) o).isCombineable();
+            // CBuiltinLeafInfo: java.lang.Boolean
+            this.permanent = ((Item) o).isPermanent();
+            // CBuiltinLeafInfo: java.lang.Boolean
+            this.stackable = ((Item) o).isStackable();
+            // CBuiltinLeafInfo: java.lang.Boolean
+            this.recipe = ((Item) o).isRecipe();
+            // CBuiltinLeafInfo: java.lang.Boolean
+            this.droppable = ((Item) o).isDroppable();
+            // CBuiltinLeafInfo: java.lang.Boolean
+            this.purchasable = ((Item) o).isPurchasable();
+            // CBuiltinLeafInfo: java.lang.Boolean
+            this.sellable = ((Item) o).isSellable();
+            // CBuiltinLeafInfo: java.lang.Boolean
+            this.requiresCharges = ((Item) o).isRequiresCharges();
+            // CBuiltinLeafInfo: java.lang.Boolean
+            this.killable = ((Item) o).isKillable();
+            // CBuiltinLeafInfo: java.lang.Boolean
+            this.disassemblable = ((Item) o).isDisassemblable();
+            // CBuiltinLeafInfo: java.lang.String
+            this.shareability = ((((Item) o).shareability == null)?null:((Item) o).getShareability());
+        }
     }
 
     /**

@@ -34,17 +34,17 @@ public class Parser {
 			FileOutputStream outputStream = new FileOutputStream(output);
 			ParserTokener tokener = new ParserTokener(inputStream);
 			ParserObject object = new ParserObject(tokener);
-			if (type.equals(Units.class)) {
-				Units units = ParserConverter.toUnits(object);
-				JAXBContext context = JAXBContext.newInstance(type);
-				Marshaller marshaller = context.createMarshaller();
-				
-				//ByteArrayOutputStream stream = new ByteArrayOutputStream();
-	            marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
-				marshaller.marshal(units, outputStream);
-				outputStream.flush();
-				//System.out.println(stream.toString());
-			}
+			Object list;
+			
+			if (type.equals(Units.class))  list = ParserConverter.toUnits(object);
+			if (type.equals(Heroes.class)) list = ParserConverter.toHeroes(object);
+			else return;
+
+			JAXBContext context = JAXBContext.newInstance(type);
+			Marshaller marshaller = context.createMarshaller();
+            marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
+			marshaller.marshal(list, outputStream);
+			outputStream.flush();
 			
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();

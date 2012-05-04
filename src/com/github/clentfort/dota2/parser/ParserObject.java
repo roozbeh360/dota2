@@ -309,8 +309,8 @@ public class ParserObject {
         try {
             return object instanceof Number
                 ? ((Number)object).doubleValue() :
-                (!((String)object).equals("")) ?   
-        		Double.parseDouble((String)object) :
+                (!((String)object).isEmpty()) ?   
+        		Double.parseDouble(((String)object).trim()) :
                 new Double(0);
                 //: Double.parseDouble((String)object);
         } catch (Exception e) {
@@ -333,8 +333,8 @@ public class ParserObject {
         try {
             return object instanceof Number
                 ? ((Number)object).intValue() :
-                (!((String)object).equals("")) ?   
-                Integer.parseInt((String)object) :
+                (!((String)object).isEmpty()) ?   
+                Integer.parseInt(((String)object).trim()) :
             	new Integer(0);
         } catch (Exception e) {
             throw new ParserException("ParserObject[" + quote(key) +
@@ -373,8 +373,8 @@ public class ParserObject {
         try {
             return object instanceof Number
                 ? ((Number)object).longValue() :
-                (!((String)object).equals("")) ?   
-        		Long.parseLong((String)object) :
+                (!((String)object).isEmpty()) ?   
+        		Long.parseLong(((String)object).trim()) :
             	new Long(0);
                 //: Long.parseLong((String)object);
         } catch (Exception e) {

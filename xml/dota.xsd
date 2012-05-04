@@ -3,7 +3,7 @@
 	elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema"
 	xmlns:tns="http://clentfort.github.com/dota2/dota">
 
-	<attribute name="damageType" default="physical">
+	<attribute name="damageType" default="DAMAGE_TYPE_ArmorPhysical">
 		<simpleType>
 			<restriction base="string">
 				<enumeration value="DAMAGE_TYPE_ArmorPhysical" />
@@ -16,7 +16,7 @@
 		</simpleType>
 	</attribute>
 
-	<attribute name="movementCapabilitie" default="none">
+	<attribute name="movementCapabilities" default="DOTA_UNIT_CAP_MOVE_NONE">
 		<simpleType>
 			<restriction base="string">
 				<enumeration value="DOTA_UNIT_CAP_MOVE_NONE" />
@@ -26,7 +26,7 @@
 		</simpleType>
 	</attribute>
 
-	<attribute name="attackCapabilitie" default="none">
+	<attribute name="attackCapabilities" default="DOTA_UNIT_CAP_NO_ATTACK">
 		<simpleType>
 			<restriction base="string">
 				<enumeration value="DOTA_UNIT_CAP_NO_ATTACK" />
@@ -96,8 +96,8 @@
 			<element name="armor">
 				<complexType>
 					<sequence>
-						<element name="physical" type="int" />
-						<element name="magical" type="int" />
+						<element name="physical" type="double" />
+						<element name="magical" type="double" />
 					</sequence>
 				</complexType>
 			</element>
@@ -117,7 +117,7 @@
 						<element name="range" type="int" />
 						<element name="projectileSpeed" type="int" />
 					</sequence>
-					<attribute ref="tns:attackCapabilitie" />
+					<attribute ref="tns:attackCapabilities" />
 				</complexType>
 			</element>
 			<element name="attributes">
@@ -168,6 +168,7 @@
 						<element name="speed" type="int" />
 						<element name="turnRate" type="double" />
 					</sequence>
+					<attribute ref="tns:movementCapabilities"></attribute>
 				</complexType>
 			</element>
 			<element name="stats">
@@ -210,11 +211,12 @@
 
 	<simpleType name="heroRole">
 		<restriction base="string">
-			<enumeration value="carry" />
-			<enumeration value="initiator" />
-			<enumeration value="ganker" />
-			<enumeration value="support" />
-			<enumeration value="pusher" />
+			<enumeration value="Carry" />
+			<enumeration value="Initiator" />
+			<enumeration value="Ganker" />
+			<enumeration value="Support" />
+            <enumeration value="Pusher" />
+            <enumeration value="Tank" />
 		</restriction>
 	</simpleType>
 

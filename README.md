@@ -11,3 +11,7 @@ Parser
 The parser is based on JSON-java by Douglas Crockford (douglas@crockford.com 
 https://github.com/douglascrockford/JSON-java). It offers basic functionality
 to parse the JSON like object definitions used in Dota2
+
+Credits
+=======
+To cyborgmatt for pointing me into the right direction.

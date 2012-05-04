@@ -2,7 +2,7 @@
 // Diese Datei wurde mit der JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.2.5 generiert 
 // Siehe <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
-// Generiert: 2012.05.03 um 10:14:43 PM CEST 
+// Generiert: 2012.05.04 um 11:53:55 AM CEST 
 //
 
 
@@ -21,11 +21,12 @@ import javax.xml.bind.annotation.XmlType;
  * <pre>
  * &lt;simpleType name="heroRole">
  *   &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
- *     &lt;enumeration value="carry"/>
- *     &lt;enumeration value="initiator"/>
- *     &lt;enumeration value="ganker"/>
- *     &lt;enumeration value="support"/>
- *     &lt;enumeration value="pusher"/>
+ *     &lt;enumeration value="Carry"/>
+ *     &lt;enumeration value="Initiator"/>
+ *     &lt;enumeration value="Ganker"/>
+ *     &lt;enumeration value="Support"/>
+ *     &lt;enumeration value="Pusher"/>
+ *     &lt;enumeration value="Tank"/>
  *   &lt;/restriction>
  * &lt;/simpleType>
  * </pre>
@@ -35,16 +36,18 @@ import javax.xml.bind.annotation.XmlType;
 @XmlEnum
 public enum HeroRole {
 
-    @XmlEnumValue("carry")
-    CARRY("carry"),
-    @XmlEnumValue("initiator")
-    INITIATOR("initiator"),
-    @XmlEnumValue("ganker")
-    GANKER("ganker"),
-    @XmlEnumValue("support")
-    SUPPORT("support"),
-    @XmlEnumValue("pusher")
-    PUSHER("pusher");
+    @XmlEnumValue("Carry")
+    CARRY("Carry"),
+    @XmlEnumValue("Initiator")
+    INITIATOR("Initiator"),
+    @XmlEnumValue("Ganker")
+    GANKER("Ganker"),
+    @XmlEnumValue("Support")
+    SUPPORT("Support"),
+    @XmlEnumValue("Pusher")
+    PUSHER("Pusher"),
+    @XmlEnumValue("Tank")
+    TANK("Tank");
     private final String value;
 
     HeroRole(String v) {
