@@ -70,7 +70,7 @@
 
 			<element name="special" type="tns:abilitySpecial" maxOccurs="unbounded" />
 		</sequence>
-		<attribute name="id" type="ID" />
+		<attribute name="id" type="int" />
 	</complexType>
 
 	<complexType name="unitStatus">

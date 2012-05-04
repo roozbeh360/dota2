@@ -38,7 +38,7 @@
                 <ns1:min>76</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>320</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -68,7 +68,7 @@
             <ns1:magical>33.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>0</ns1:max>
                 <ns1:min>0</ns1:min>
             </ns1:damage>
@@ -97,7 +97,7 @@
                 <ns1:min>32</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>320</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -154,7 +154,7 @@
                 <ns1:min>7</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>270</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -213,7 +213,7 @@
                 <ns1:min>76</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>320</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -273,7 +273,7 @@
                 <ns1:min>76</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>320</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -334,7 +334,7 @@
                 <ns1:min>76</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>320</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -362,7 +362,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>26</ns1:max>
                 <ns1:min>21</ns1:min>
             </ns1:damage>
@@ -391,7 +391,7 @@
                 <ns1:min>43</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>325</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -419,7 +419,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_MELEE_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>10</ns1:max>
                 <ns1:min>9</ns1:min>
             </ns1:damage>
@@ -448,7 +448,7 @@
                 <ns1:min>11</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>350</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -508,7 +508,7 @@
                 <ns1:min>54</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>320</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -568,7 +568,7 @@
                 <ns1:min>100</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>360</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -596,7 +596,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_MELEE_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>44</ns1:max>
                 <ns1:min>36</ns1:min>
             </ns1:damage>
@@ -625,7 +625,7 @@
                 <ns1:min>18</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>325</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -685,7 +685,7 @@
                 <ns1:min>75</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>340</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -745,7 +745,7 @@
                 <ns1:min>50</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>320</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -773,7 +773,7 @@
             <ns1:magical>50.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>32</ns1:max>
                 <ns1:min>24</ns1:min>
             </ns1:damage>
@@ -802,7 +802,7 @@
                 <ns1:min>22</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>250</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -833,7 +833,7 @@
             <ns1:magical>40.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>40</ns1:max>
                 <ns1:min>40</ns1:min>
             </ns1:damage>
@@ -862,7 +862,7 @@
                 <ns1:min>100</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>330</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -921,7 +921,7 @@
                 <ns1:min>30</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>320</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -978,7 +978,7 @@
                 <ns1:min>1</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_FLY">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -1009,7 +1009,7 @@
             <ns1:magical>40.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>120</ns1:max>
                 <ns1:min>120</ns1:min>
             </ns1:damage>
@@ -1038,7 +1038,7 @@
                 <ns1:min>100</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>390</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -1069,7 +1069,7 @@
             <ns1:magical>40.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>80</ns1:max>
                 <ns1:min>80</ns1:min>
             </ns1:damage>
@@ -1098,7 +1098,7 @@
                 <ns1:min>100</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>360</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -1128,7 +1128,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>140</ns1:max>
                 <ns1:min>120</ns1:min>
             </ns1:damage>
@@ -1157,7 +1157,7 @@
                 <ns1:min>502</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>1.0</ns1:turnRate>
         </ns1:movement>
@@ -1187,7 +1187,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>182</ns1:max>
                 <ns1:min>122</ns1:min>
             </ns1:damage>
@@ -1216,7 +1216,7 @@
                 <ns1:min>552</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>1.0</ns1:turnRate>
         </ns1:movement>
@@ -1246,7 +1246,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_NO_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>0</ns1:max>
                 <ns1:min>0</ns1:min>
             </ns1:damage>
@@ -1275,7 +1275,7 @@
                 <ns1:min>352</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>0.0</ns1:turnRate>
         </ns1:movement>
@@ -1334,7 +1334,7 @@
                 <ns1:min>33</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>310</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -1365,7 +1365,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_MELEE_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>19</ns1:max>
                 <ns1:min>18</ns1:min>
             </ns1:damage>
@@ -1394,7 +1394,7 @@
                 <ns1:min>11</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>350</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -1453,7 +1453,7 @@
                 <ns1:min>107</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>270</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -1513,7 +1513,7 @@
                 <ns1:min>67</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>320</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -1543,7 +1543,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_NO_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>0</ns1:max>
                 <ns1:min>0</ns1:min>
             </ns1:damage>
@@ -1572,7 +1572,7 @@
                 <ns1:min>352</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>0.0</ns1:turnRate>
         </ns1:movement>
@@ -1631,7 +1631,7 @@
                 <ns1:min>54</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>270</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -1659,7 +1659,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>120</ns1:max>
                 <ns1:min>100</ns1:min>
             </ns1:damage>
@@ -1688,7 +1688,7 @@
                 <ns1:min>452</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>1.0</ns1:turnRate>
         </ns1:movement>
@@ -1716,7 +1716,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_MELEE_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>23</ns1:max>
                 <ns1:min>19</ns1:min>
             </ns1:damage>
@@ -1745,7 +1745,7 @@
                 <ns1:min>38</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>325</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -1805,7 +1805,7 @@
                 <ns1:min>164</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>300</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -1836,7 +1836,7 @@
             <ns1:magical>40.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_MELEE_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>25</ns1:max>
                 <ns1:min>25</ns1:min>
             </ns1:damage>
@@ -1865,7 +1865,7 @@
                 <ns1:min>100</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>330</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -1896,7 +1896,7 @@
             <ns1:magical>40.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_MELEE_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>50</ns1:max>
                 <ns1:min>50</ns1:min>
             </ns1:damage>
@@ -1925,7 +1925,7 @@
                 <ns1:min>100</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>360</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -1955,7 +1955,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_NO_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>0</ns1:max>
                 <ns1:min>0</ns1:min>
             </ns1:damage>
@@ -1984,7 +1984,7 @@
                 <ns1:min>352</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>0.0</ns1:turnRate>
         </ns1:movement>
@@ -2012,7 +2012,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_MELEE_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>44</ns1:max>
                 <ns1:min>36</ns1:min>
             </ns1:damage>
@@ -2041,7 +2041,7 @@
                 <ns1:min>18</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>325</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -2071,7 +2071,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_NO_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>0</ns1:max>
                 <ns1:min>0</ns1:min>
             </ns1:damage>
@@ -2100,7 +2100,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>0.0</ns1:turnRate>
         </ns1:movement>
@@ -2130,7 +2130,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_NO_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>0</ns1:max>
                 <ns1:min>0</ns1:min>
             </ns1:damage>
@@ -2159,7 +2159,7 @@
                 <ns1:min>102</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>0.0</ns1:turnRate>
         </ns1:movement>
@@ -2219,7 +2219,7 @@
                 <ns1:min>86</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>300</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -2251,7 +2251,7 @@
             <ns1:magical>40.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_MELEE_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>75</ns1:max>
                 <ns1:min>75</ns1:min>
             </ns1:damage>
@@ -2280,7 +2280,7 @@
                 <ns1:min>100</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>390</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -2308,7 +2308,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>0</ns1:max>
                 <ns1:min>0</ns1:min>
             </ns1:damage>
@@ -2337,7 +2337,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -2367,7 +2367,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>182</ns1:max>
                 <ns1:min>122</ns1:min>
             </ns1:damage>
@@ -2396,7 +2396,7 @@
                 <ns1:min>602</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>1.0</ns1:turnRate>
         </ns1:movement>
@@ -2426,7 +2426,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>140</ns1:max>
                 <ns1:min>120</ns1:min>
             </ns1:damage>
@@ -2455,7 +2455,7 @@
                 <ns1:min>502</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>1.0</ns1:turnRate>
         </ns1:movement>
@@ -2512,7 +2512,7 @@
                 <ns1:min>17</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>270</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -2540,7 +2540,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>0</ns1:max>
                 <ns1:min>0</ns1:min>
             </ns1:damage>
@@ -2569,7 +2569,7 @@
                 <ns1:min>26</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -2597,7 +2597,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>0</ns1:max>
                 <ns1:min>0</ns1:min>
             </ns1:damage>
@@ -2626,7 +2626,7 @@
                 <ns1:min>26</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -2654,7 +2654,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>0</ns1:max>
                 <ns1:min>0</ns1:min>
             </ns1:damage>
@@ -2683,7 +2683,7 @@
                 <ns1:min>26</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -2713,7 +2713,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>140</ns1:max>
                 <ns1:min>120</ns1:min>
             </ns1:damage>
@@ -2742,7 +2742,7 @@
                 <ns1:min>502</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>1.0</ns1:turnRate>
         </ns1:movement>
@@ -2770,7 +2770,7 @@
             <ns1:magical>50.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>42</ns1:max>
                 <ns1:min>34</ns1:min>
             </ns1:damage>
@@ -2799,7 +2799,7 @@
                 <ns1:min>22</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>260</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -2858,7 +2858,7 @@
                 <ns1:min>22</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>350</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -2886,7 +2886,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>46</ns1:max>
                 <ns1:min>41</ns1:min>
             </ns1:damage>
@@ -2915,7 +2915,7 @@
                 <ns1:min>18</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>325</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -2943,7 +2943,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_NO_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>0</ns1:max>
                 <ns1:min>0</ns1:min>
             </ns1:damage>
@@ -2972,7 +2972,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>300</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -3032,7 +3032,7 @@
                 <ns1:min>100</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>320</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -3060,7 +3060,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>11</ns1:max>
                 <ns1:min>9</ns1:min>
             </ns1:damage>
@@ -3089,7 +3089,7 @@
                 <ns1:min>14</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -3146,7 +3146,7 @@
                 <ns1:min>1</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_FLY">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -3205,7 +3205,7 @@
                 <ns1:min>79</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>270</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -3265,7 +3265,7 @@
                 <ns1:min>200</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>360</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -3325,7 +3325,7 @@
                 <ns1:min>150</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>340</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -3353,7 +3353,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>42</ns1:max>
                 <ns1:min>34</ns1:min>
             </ns1:damage>
@@ -3382,7 +3382,7 @@
                 <ns1:min>14</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -3439,7 +3439,7 @@
                 <ns1:min>15</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>300</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -3467,7 +3467,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>32</ns1:max>
                 <ns1:min>26</ns1:min>
             </ns1:damage>
@@ -3496,7 +3496,7 @@
                 <ns1:min>14</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -3524,7 +3524,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>21</ns1:max>
                 <ns1:min>17</ns1:min>
             </ns1:damage>
@@ -3553,7 +3553,7 @@
                 <ns1:min>14</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -3583,7 +3583,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>182</ns1:max>
                 <ns1:min>122</ns1:min>
             </ns1:damage>
@@ -3612,7 +3612,7 @@
                 <ns1:min>552</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>1.0</ns1:turnRate>
         </ns1:movement>
@@ -3671,7 +3671,7 @@
                 <ns1:min>11</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>522</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -3730,7 +3730,7 @@
                 <ns1:min>11</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>522</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -3760,7 +3760,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_NO_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>0</ns1:max>
                 <ns1:min>0</ns1:min>
             </ns1:damage>
@@ -3789,7 +3789,7 @@
                 <ns1:min>352</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>0.0</ns1:turnRate>
         </ns1:movement>
@@ -3848,7 +3848,7 @@
                 <ns1:min>23</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>330</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -3907,7 +3907,7 @@
                 <ns1:min>31</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>522</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -3937,7 +3937,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_NO_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>0</ns1:max>
                 <ns1:min>0</ns1:min>
             </ns1:damage>
@@ -3966,7 +3966,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>0.0</ns1:turnRate>
         </ns1:movement>
@@ -4025,7 +4025,7 @@
                 <ns1:min>31</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>522</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -4082,7 +4082,7 @@
                 <ns1:min>22</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>270</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -4112,7 +4112,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_NO_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>0</ns1:max>
                 <ns1:min>0</ns1:min>
             </ns1:damage>
@@ -4141,7 +4141,7 @@
                 <ns1:min>102</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>0.0</ns1:turnRate>
         </ns1:movement>
@@ -4200,7 +4200,7 @@
                 <ns1:min>1</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -4257,7 +4257,7 @@
                 <ns1:min>24</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>280</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -4285,7 +4285,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>120</ns1:max>
                 <ns1:min>100</ns1:min>
             </ns1:damage>
@@ -4314,7 +4314,7 @@
                 <ns1:min>452</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>1.0</ns1:turnRate>
         </ns1:movement>
@@ -4344,7 +4344,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>182</ns1:max>
                 <ns1:min>122</ns1:min>
             </ns1:damage>
@@ -4373,7 +4373,7 @@
                 <ns1:min>552</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>1.0</ns1:turnRate>
         </ns1:movement>
@@ -4432,7 +4432,7 @@
                 <ns1:min>54</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>270</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -4493,7 +4493,7 @@
                 <ns1:min>31</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>350</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -4552,7 +4552,7 @@
                 <ns1:min>152</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>320</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -4611,7 +4611,7 @@
                 <ns1:min>26</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>350</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -4671,7 +4671,7 @@
                 <ns1:min>21</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>290</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -4732,7 +4732,7 @@
                 <ns1:min>11</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>350</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -4793,7 +4793,7 @@
                 <ns1:min>11</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>350</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -4854,7 +4854,7 @@
                 <ns1:min>31</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>350</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -4884,7 +4884,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>140</ns1:max>
                 <ns1:min>120</ns1:min>
             </ns1:damage>
@@ -4913,7 +4913,7 @@
                 <ns1:min>502</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>1.0</ns1:turnRate>
         </ns1:movement>
@@ -4941,7 +4941,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>46</ns1:max>
                 <ns1:min>35</ns1:min>
             </ns1:damage>
@@ -4970,7 +4970,7 @@
                 <ns1:min>66</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>325</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -5000,7 +5000,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_NO_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>0</ns1:max>
                 <ns1:min>0</ns1:min>
             </ns1:damage>
@@ -5029,7 +5029,7 @@
                 <ns1:min>352</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>0.0</ns1:turnRate>
         </ns1:movement>
@@ -5089,7 +5089,7 @@
                 <ns1:min>5</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>375</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -5117,7 +5117,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>120</ns1:max>
                 <ns1:min>100</ns1:min>
             </ns1:damage>
@@ -5146,7 +5146,7 @@
                 <ns1:min>452</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>1.0</ns1:turnRate>
         </ns1:movement>
@@ -5207,7 +5207,7 @@
                 <ns1:min>89</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>270</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -5264,7 +5264,7 @@
                 <ns1:min>20</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>350</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -5321,7 +5321,7 @@
                 <ns1:min>44</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>350</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -5349,7 +5349,7 @@
             <ns1:magical>50.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>24</ns1:max>
                 <ns1:min>16</ns1:min>
             </ns1:damage>
@@ -5378,7 +5378,7 @@
                 <ns1:min>22</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>250</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -5437,7 +5437,7 @@
                 <ns1:min>21</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>270</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -5494,7 +5494,7 @@
                 <ns1:min>52</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>320</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -5524,7 +5524,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>182</ns1:max>
                 <ns1:min>122</ns1:min>
             </ns1:damage>
@@ -5553,7 +5553,7 @@
                 <ns1:min>552</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>1.0</ns1:turnRate>
         </ns1:movement>
@@ -5610,7 +5610,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>300</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -5640,7 +5640,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_NO_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>0</ns1:max>
                 <ns1:min>0</ns1:min>
             </ns1:damage>
@@ -5669,7 +5669,7 @@
                 <ns1:min>352</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>0.0</ns1:turnRate>
         </ns1:movement>
@@ -5728,7 +5728,7 @@
                 <ns1:min>76</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>320</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -5762,7 +5762,7 @@
             <ns1:magical>75.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_MELEE_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>65</ns1:max>
                 <ns1:min>65</ns1:min>
             </ns1:damage>
@@ -5791,7 +5791,7 @@
                 <ns1:min>105</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>270</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -5850,7 +5850,7 @@
                 <ns1:min>74</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>270</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -5907,7 +5907,7 @@
                 <ns1:min>32</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -5964,7 +5964,7 @@
                 <ns1:min>60</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>320</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -6021,7 +6021,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>300</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -6051,7 +6051,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_NO_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>0</ns1:max>
                 <ns1:min>0</ns1:min>
             </ns1:damage>
@@ -6080,7 +6080,7 @@
                 <ns1:min>352</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>0.0</ns1:turnRate>
         </ns1:movement>
@@ -6145,7 +6145,7 @@
                 <ns1:min>175</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>350</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -6175,7 +6175,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_NO_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>0</ns1:max>
                 <ns1:min>0</ns1:min>
             </ns1:damage>
@@ -6204,7 +6204,7 @@
                 <ns1:min>352</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>0.0</ns1:turnRate>
         </ns1:movement>
@@ -6234,7 +6234,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>182</ns1:max>
                 <ns1:min>122</ns1:min>
             </ns1:damage>
@@ -6263,7 +6263,7 @@
                 <ns1:min>552</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>1.0</ns1:turnRate>
         </ns1:movement>
@@ -6291,7 +6291,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>46</ns1:max>
                 <ns1:min>41</ns1:min>
             </ns1:damage>
@@ -6320,7 +6320,7 @@
                 <ns1:min>18</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>325</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -6379,7 +6379,7 @@
                 <ns1:min>43</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>270</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -6439,7 +6439,7 @@
                 <ns1:min>97</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>290</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -6499,7 +6499,7 @@
                 <ns1:min>66</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>320</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -6527,7 +6527,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_MELEE_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>23</ns1:max>
                 <ns1:min>19</ns1:min>
             </ns1:damage>
@@ -6556,7 +6556,7 @@
                 <ns1:min>38</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>325</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -6584,7 +6584,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>120</ns1:max>
                 <ns1:min>100</ns1:min>
             </ns1:damage>
@@ -6613,7 +6613,7 @@
                 <ns1:min>452</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>1.0</ns1:turnRate>
         </ns1:movement>
@@ -6672,7 +6672,7 @@
                 <ns1:min>27</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>270</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -6700,7 +6700,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_MELEE_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>25</ns1:max>
                 <ns1:min>24</ns1:min>
             </ns1:damage>
@@ -6729,7 +6729,7 @@
                 <ns1:min>6</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>270</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -6788,7 +6788,7 @@
                 <ns1:min>26</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>350</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -6853,7 +6853,7 @@
                 <ns1:min>175</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_FLY">
             <ns1:speed>350</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -6910,7 +6910,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>300</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -6967,7 +6967,7 @@
                 <ns1:min>32</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -6997,7 +6997,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>140</ns1:max>
                 <ns1:min>120</ns1:min>
             </ns1:damage>
@@ -7026,7 +7026,7 @@
                 <ns1:min>502</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>1.0</ns1:turnRate>
         </ns1:movement>
@@ -7056,7 +7056,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_NO_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>0</ns1:max>
                 <ns1:min>0</ns1:min>
             </ns1:damage>
@@ -7085,7 +7085,7 @@
                 <ns1:min>352</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>0.0</ns1:turnRate>
         </ns1:movement>
@@ -7142,7 +7142,7 @@
                 <ns1:min>20</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>350</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -7170,7 +7170,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>26</ns1:max>
                 <ns1:min>21</ns1:min>
             </ns1:damage>
@@ -7199,7 +7199,7 @@
                 <ns1:min>43</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>325</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -7229,7 +7229,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>140</ns1:max>
                 <ns1:min>120</ns1:min>
             </ns1:damage>
@@ -7258,7 +7258,7 @@
                 <ns1:min>502</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>1.0</ns1:turnRate>
         </ns1:movement>
@@ -7319,7 +7319,7 @@
                 <ns1:min>31</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>325</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -7349,7 +7349,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_NO_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>0</ns1:max>
                 <ns1:min>0</ns1:min>
             </ns1:damage>
@@ -7378,7 +7378,7 @@
                 <ns1:min>352</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>0.0</ns1:turnRate>
         </ns1:movement>
@@ -7408,7 +7408,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>182</ns1:max>
                 <ns1:min>122</ns1:min>
             </ns1:damage>
@@ -7437,7 +7437,7 @@
                 <ns1:min>552</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>1.0</ns1:turnRate>
         </ns1:movement>
@@ -7465,7 +7465,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>120</ns1:max>
                 <ns1:min>100</ns1:min>
             </ns1:damage>
@@ -7494,7 +7494,7 @@
                 <ns1:min>452</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>1.0</ns1:turnRate>
         </ns1:movement>
@@ -7551,7 +7551,7 @@
                 <ns1:min>26</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>270</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -7610,7 +7610,7 @@
                 <ns1:min>15</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>300</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -7671,7 +7671,7 @@
                 <ns1:min>31</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>325</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -7699,7 +7699,7 @@
             <ns1:magical>50.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>51</ns1:max>
                 <ns1:min>43</ns1:min>
             </ns1:damage>
@@ -7728,7 +7728,7 @@
                 <ns1:min>22</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>260</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -7789,7 +7789,7 @@
                 <ns1:min>11</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>325</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -7850,7 +7850,7 @@
                 <ns1:min>11</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>325</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -7907,7 +7907,7 @@
                 <ns1:min>1</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -7964,7 +7964,7 @@
                 <ns1:min>30</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_FLY">
             <ns1:speed>270</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -8023,7 +8023,7 @@
                 <ns1:min>65</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_FLY">
             <ns1:speed>400</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -8083,7 +8083,7 @@
                 <ns1:min>41</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>460</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -8142,7 +8142,7 @@
                 <ns1:min>36</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>440</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -8170,7 +8170,7 @@
             <ns1:magical>33.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_MELEE_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>23</ns1:max>
                 <ns1:min>21</ns1:min>
             </ns1:damage>
@@ -8199,7 +8199,7 @@
                 <ns1:min>12</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>300</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -8259,7 +8259,7 @@
                 <ns1:min>37</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>350</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -8318,7 +8318,7 @@
                 <ns1:min>26</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>420</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -8375,7 +8375,7 @@
                 <ns1:min>21</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>400</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -8432,7 +8432,7 @@
                 <ns1:min>1</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -8492,7 +8492,7 @@
                 <ns1:min>110</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>0.0</ns1:turnRate>
         </ns1:movement>
@@ -8549,7 +8549,7 @@
                 <ns1:min>23</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>270</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -8609,7 +8609,7 @@
                 <ns1:min>130</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>0.0</ns1:turnRate>
         </ns1:movement>
@@ -8639,7 +8639,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>182</ns1:max>
                 <ns1:min>122</ns1:min>
             </ns1:damage>
@@ -8668,7 +8668,7 @@
                 <ns1:min>602</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>1.0</ns1:turnRate>
         </ns1:movement>
@@ -8727,7 +8727,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_FLY">
             <ns1:speed>125</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -8755,7 +8755,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>120</ns1:max>
                 <ns1:min>100</ns1:min>
             </ns1:damage>
@@ -8784,7 +8784,7 @@
                 <ns1:min>452</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>1.0</ns1:turnRate>
         </ns1:movement>
@@ -8841,7 +8841,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_FLY">
             <ns1:speed>300</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -8898,7 +8898,7 @@
                 <ns1:min>60</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -8958,7 +8958,7 @@
                 <ns1:min>90</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>0.0</ns1:turnRate>
         </ns1:movement>
@@ -8986,7 +8986,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_RANGED_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>46</ns1:max>
                 <ns1:min>35</ns1:min>
             </ns1:damage>
@@ -9015,7 +9015,7 @@
                 <ns1:min>66</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>325</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -9045,7 +9045,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_NO_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>0</ns1:max>
                 <ns1:min>0</ns1:min>
             </ns1:damage>
@@ -9074,7 +9074,7 @@
                 <ns1:min>352</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>0.0</ns1:turnRate>
         </ns1:movement>
@@ -9131,7 +9131,7 @@
                 <ns1:min>80</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -9191,7 +9191,7 @@
                 <ns1:min>70</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>0.0</ns1:turnRate>
         </ns1:movement>
@@ -9248,7 +9248,7 @@
                 <ns1:min>20</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -9278,7 +9278,7 @@
             <ns1:magical>0.0</ns1:magical>
         </ns1:armor>
         <ns1:attack ns1:attackCapabilities="DOTA_UNIT_CAP_NO_ATTACK">
-            <ns1:damage ns1:damageType="AttackDamageType">
+            <ns1:damage ns1:damageType="DAMAGE_TYPE_ArmorPhysical">
                 <ns1:max>0</ns1:max>
                 <ns1:min>0</ns1:min>
             </ns1:damage>
@@ -9307,7 +9307,7 @@
                 <ns1:min>352</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>0.0</ns1:turnRate>
         </ns1:movement>
@@ -9364,7 +9364,7 @@
                 <ns1:min>40</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_NONE">
             <ns1:speed>0</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>

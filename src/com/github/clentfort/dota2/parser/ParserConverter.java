@@ -3,6 +3,9 @@ package com.github.clentfort.dota2.parser;
 import java.util.Iterator;
 import java.util.List;
 
+import com.github.clentfort.dota2.dota.Abilities;
+import com.github.clentfort.dota2.dota.Ability;
+import com.github.clentfort.dota2.dota.AbilityLevelBasedType;
 import com.github.clentfort.dota2.dota.Hero;
 import com.github.clentfort.dota2.dota.HeroRole;
 import com.github.clentfort.dota2.dota.Heroes;
@@ -14,8 +17,9 @@ import com.github.clentfort.dota2.dota.Units;
 public class ParserConverter {
 	public static final String BASE_UNIT = "npc_dota_units_base";
 	public static final String BASE_HERO = "npc_dota_hero_base";
+	public static final String BASE_ABILITY = "ability_base";
 	
-	public static Unit baseUnit(ParserObject baseObject) throws ParserException  {
+	protected static Unit baseUnit(ParserObject baseObject) throws ParserException  {
 		Unit baseUnit = new Unit();
 		baseUnit.setName("base");
 		baseUnit.setLevel(baseObject.getInt("Level"));
@@ -67,7 +71,7 @@ public class ParserConverter {
 		baseUnit.setBounty(bounty);
 		
 		Unit.Movement movement = new Unit.Movement();
-		movement.setMovementCapabilities("MovementCapabilities");
+		movement.setMovementCapabilities(baseObject.getString("MovementCapabilities"));
 		movement.setSpeed(baseObject.getInt("MovementSpeed"));
 		movement.setTurnRate(baseObject.getDouble("MovementTurnRate"));
 		baseUnit.setMovement(movement);
@@ -111,7 +115,7 @@ public class ParserConverter {
 			String name = (String)i.next();
 			if (!name.startsWith("npc_dota_")) continue;
 			ParserObject unitObject = object.getParserObject(name);
-			Unit unit = baseUnit.clone();
+			Unit unit = new Unit(baseUnit);
 			unit.setName(name);
 			// Level
 			if (unitObject.has("Level"))
@@ -146,7 +150,7 @@ public class ParserConverter {
 			// Damage
 			// Damage Type
 			if (unitObject.has("AttackDamageType")) 
-				unit.getAttack().getDamage().setDamageType("AttackDamageType");
+				unit.getAttack().getDamage().setDamageType(unitObject.getString("AttackDamageType"));
 			// Min Damage
 			if (unitObject.has("AttackDamageMin"))
 				unit.getAttack().getDamage().setMin(unitObject.getInt("AttackDamageMin"));
@@ -197,7 +201,7 @@ public class ParserConverter {
 			// Movement
 			// Capabilities
 			if (unitObject.has("MovementCapabilities"))
-				unit.getMovement().setMovementCapabilities("MovementCapabilities");
+				unit.getMovement().setMovementCapabilities(unitObject.getString("MovementCapabilities"));
 			// Speed
 			if (unitObject.has("MovementSpeed"))
 				unit.getMovement().setSpeed(unitObject.getInt("MovementSpeed"));
@@ -252,5 +256,80 @@ public class ParserConverter {
 			heroes.add(hero); 
 		}
 		return h;
+	}
+		
+	protected static void fillAbilityLevelBasedList(List<AbilityLevelBasedType> list, String string) {
+		String[] values = string.split(" ");
+		list.clear();
+		for (int i = 0; i < values.length; i++) {
+			AbilityLevelBasedType type = new AbilityLevelBasedType();
+			type.setLevel(i);
+			type.setValue(Double.parseDouble((String)values[i]));
+			list.add(type);
+		}
+		return;
+	}
+	
+	protected static Ability baseAbility(ParserObject baseObject) throws ParserException {
+		Ability baseAbility = new Ability();
+		baseAbility.setId(baseObject.getInt("ID"));
+		baseAbility.setName(baseObject.getString("AbilityName"));
+		baseAbility.setType(baseObject.getString("AbilityType"));
+		baseAbility.setBehavior(baseObject.getString("AbilityBehavior"));
+		
+		fillAbilityLevelBasedList(baseAbility.getCastRange(), baseObject.getString("AbilityCastRange"));
+		fillAbilityLevelBasedList(baseAbility.getChannelTime(), baseObject.getString("AbilityChannelTime"));
+		fillAbilityLevelBasedList(baseAbility.getCooldown(), baseObject.getString("AbilityCooldown"));
+		fillAbilityLevelBasedList(baseAbility.getDuration(), baseObject.getString("AbilityDuration"));
+		fillAbilityLevelBasedList(baseAbility.getDamage(), baseObject.getString("AbilityDamage"));
+		fillAbilityLevelBasedList(baseAbility.getManacost(), baseObject.getString("AbilityManaCost"));
+		
+		return baseAbility;
+	}
+	
+	public static Abilities toAbilities(ParserObject object) throws ParserException {
+		ParserObject baseObject;
+		if (object.has(BASE_ABILITY)) {
+			baseObject = object.getParserObject(BASE_ABILITY);
+			object.remove(BASE_ABILITY);
+		}
+		else throw new ParserException("The ParserObject is not a valid items object!");
+		
+		Ability baseAbility = baseAbility(baseObject);
+		Abilities a = new Abilities();
+		List<Ability> abilities = a.getAbility();
+		
+		for (Iterator i = object.keys(); i.hasNext();) {
+			String key = (String)i.next();
+			if (!(object.get(key) instanceof ParserObject)) continue;
+			ParserObject abilityObject = object.getParserObject(key);
+			Ability ability = new Ability(baseAbility);
+			
+			if (abilityObject.has("ID"))
+				ability.setId(abilityObject.getInt("ID"));
+			if (abilityObject.has("AbilityName"))
+				ability.setName(abilityObject.getString("AbilityName"));
+			if (abilityObject.has("AbilityType"))
+				ability.setType(abilityObject.getString("AbilityType"));
+			if (abilityObject.has("AbilityBehavior"))
+				ability.setBehavior("AbilityBehavior");
+
+			if (abilityObject.has("AbilityCastRange"))
+				fillAbilityLevelBasedList(ability.getCastRange(), abilityObject.getString("AbilityCastRange"));
+			if (abilityObject.has("AbilityChannelTime"))
+				fillAbilityLevelBasedList(ability.getChannelTime(), abilityObject.getString("AbilityChannelTime"));
+			if (abilityObject.has("AbilityCooldown"))
+				fillAbilityLevelBasedList(ability.getCooldown(), abilityObject.getString("AbilityCooldown"));
+			if (abilityObject.has("AbilityDuration"))
+				fillAbilityLevelBasedList(ability.getDuration(), abilityObject.getString("AbilityDuration"));
+			if (abilityObject.has("AbilityDamage"))
+				fillAbilityLevelBasedList(ability.getDamage(), abilityObject.getString("AbilityDamage"));
+			if (abilityObject.has("AbilityManaCost"))
+				fillAbilityLevelBasedList(ability.getManacost(), abilityObject.getString("AbilityManaCost"));
+			
+			abilities.add(ability);
+		}
+		
+		return a;
 	}
 }

@@ -2,7 +2,7 @@
 // Diese Datei wurde mit der JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.2.5 generiert 
 // Siehe <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
-// Generiert: 2012.05.04 um 11:53:55 AM CEST 
+// Generiert: 2012.05.04 um 01:48:36 PM CEST 
 //
 
 
@@ -15,12 +15,8 @@ import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlID;
-import javax.xml.bind.annotation.XmlSchemaType;
 import javax.xml.bind.annotation.XmlSeeAlso;
 import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.adapters.CollapsedStringAdapter;
-import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 
 /**
@@ -44,7 +40,7 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
  *         &lt;element name="manacost" type="{http://clentfort.github.com/dota2/dota}abilityLevelBasedType" maxOccurs="4"/>
  *         &lt;element name="special" type="{http://clentfort.github.com/dota2/dota}abilitySpecial" maxOccurs="unbounded"/>
  *       &lt;/sequence>
- *       &lt;attribute name="id" type="{http://www.w3.org/2001/XMLSchema}ID" />
+ *       &lt;attribute name="id" type="{http://www.w3.org/2001/XMLSchema}int" />
  *     &lt;/restriction>
  *   &lt;/complexContent>
  * &lt;/complexType>
@@ -92,10 +88,7 @@ public class Ability implements Cloneable
     @XmlElement(required = true)
     protected List<AbilitySpecial> special;
     @XmlAttribute(name = "id")
-    @XmlJavaTypeAdapter(CollapsedStringAdapter.class)
-    @XmlID
-    @XmlSchemaType(name = "ID")
-    protected String id;
+    protected Integer id;
 
     /**
      * Creates a new {@code Ability} instance.
@@ -155,7 +148,7 @@ public class Ability implements Cloneable
         if (o.special!= null) {
             copySpecial(o.getSpecial(), this.getSpecial());
         }
-        // CBuiltinLeafInfo: java.lang.String
+        // CBuiltinLeafInfo: java.lang.Integer
         this.id = ((o.id == null)?null:o.getId());
     }
 
@@ -439,10 +432,10 @@ public class Ability implements Cloneable
      * 
      * @return
      *     possible object is
-     *     {@link String }
+     *     {@link Integer }
      *     
      */
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
@@ -451,10 +444,10 @@ public class Ability implements Cloneable
      * 
      * @param value
      *     allowed object is
-     *     {@link String }
+     *     {@link Integer }
      *     
      */
-    public void setId(String value) {
+    public void setId(Integer value) {
         this.id = value;
     }
 
@@ -701,7 +694,7 @@ public class Ability implements Cloneable
                     clone.special = null;
                     copySpecial(this.getSpecial(), clone.getSpecial());
                 }
-                // CBuiltinLeafInfo: java.lang.String
+                // CBuiltinLeafInfo: java.lang.Integer
                 clone.id = ((this.id == null)?null:this.getId());
                 return clone;
             }

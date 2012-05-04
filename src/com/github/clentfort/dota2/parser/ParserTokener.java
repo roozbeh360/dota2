@@ -232,14 +232,14 @@ public class ParserTokener {
         	char c = this.next();
             
             if (c == '/') { // might start comment
-            	if (this.next() != '/') { // was not start of comment, return c
+            	/*if (this.next() != '/') { // was not start of comment, return c
             		this.back(); // reset position
             		return c;
             	}
-            	else {
+            	else { */
             		long l = line; // remember current line
             		while (l == line) c = this.next(); // fast forward to next line
-            	}
+            	//}
             }
             if (c == 0 || c > ' ') {
                 return c;

@@ -37,6 +37,7 @@ public class Parser {
 			
 			if (type.equals(Units.class))  list = ParserConverter.toUnits(object);
 			else if (type.equals(Heroes.class)) list = ParserConverter.toHeroes(object);
+			else if (type.equals(Abilities.class)) list = ParserConverter.toAbilities(object);
 			else return;
 
 			JAXBContext context = JAXBContext.newInstance(type);

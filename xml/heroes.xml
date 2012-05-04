@@ -43,7 +43,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>290</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -108,7 +108,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>300</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -173,7 +173,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>300</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -238,7 +238,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>290</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -302,7 +302,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>305</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -367,7 +367,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>295</ns1:speed>
             <ns1:turnRate>0.6</ns1:turnRate>
         </ns1:movement>
@@ -432,7 +432,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>300</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -497,7 +497,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>310</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -566,7 +566,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>290</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -634,7 +634,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>295</ns1:speed>
             <ns1:turnRate>0.4</ns1:turnRate>
         </ns1:movement>
@@ -701,7 +701,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>295</ns1:speed>
             <ns1:turnRate>0.6</ns1:turnRate>
         </ns1:movement>
@@ -767,7 +767,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>300</ns1:speed>
             <ns1:turnRate>0.6</ns1:turnRate>
         </ns1:movement>
@@ -832,7 +832,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>315</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -896,7 +896,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>290</ns1:speed>
             <ns1:turnRate>0.6</ns1:turnRate>
         </ns1:movement>
@@ -965,7 +965,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>285</ns1:speed>
             <ns1:turnRate>0.6</ns1:turnRate>
         </ns1:movement>
@@ -1029,7 +1029,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>295</ns1:speed>
             <ns1:turnRate>0.6</ns1:turnRate>
         </ns1:movement>
@@ -1093,7 +1093,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>305</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -1157,7 +1157,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>300</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -1221,7 +1221,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>280</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -1286,7 +1286,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>315</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -1350,7 +1350,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>300</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -1415,7 +1415,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>300</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -1480,7 +1480,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>285</ns1:speed>
             <ns1:turnRate>0.4</ns1:turnRate>
         </ns1:movement>
@@ -1545,7 +1545,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>295</ns1:speed>
             <ns1:turnRate>0.6</ns1:turnRate>
         </ns1:movement>
@@ -1610,7 +1610,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>300</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -1674,7 +1674,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>290</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -1738,7 +1738,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>300</ns1:speed>
             <ns1:turnRate>0.4</ns1:turnRate>
         </ns1:movement>
@@ -1802,7 +1802,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>315</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -1866,7 +1866,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>295</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -1931,7 +1931,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>285</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -1995,7 +1995,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>300</ns1:speed>
             <ns1:turnRate>0.6</ns1:turnRate>
         </ns1:movement>
@@ -2059,7 +2059,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>290</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -2123,7 +2123,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>300</ns1:speed>
             <ns1:turnRate>0.4</ns1:turnRate>
         </ns1:movement>
@@ -2187,7 +2187,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>295</ns1:speed>
             <ns1:turnRate>0.4</ns1:turnRate>
         </ns1:movement>
@@ -2251,7 +2251,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>305</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -2319,7 +2319,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>295</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -2385,7 +2385,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>300</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -2450,7 +2450,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>310</ns1:speed>
             <ns1:turnRate>0.4</ns1:turnRate>
         </ns1:movement>
@@ -2514,7 +2514,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>285</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -2578,7 +2578,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>310</ns1:speed>
             <ns1:turnRate>0.4</ns1:turnRate>
         </ns1:movement>
@@ -2643,7 +2643,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>330</ns1:speed>
             <ns1:turnRate>0.4</ns1:turnRate>
         </ns1:movement>
@@ -2708,7 +2708,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>325</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -2775,7 +2775,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>295</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -2839,7 +2839,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>295</ns1:speed>
             <ns1:turnRate>0.6</ns1:turnRate>
         </ns1:movement>
@@ -2905,7 +2905,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>305</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -2971,7 +2971,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>310</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -3035,7 +3035,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>315</ns1:speed>
             <ns1:turnRate>0.6</ns1:turnRate>
         </ns1:movement>
@@ -3099,7 +3099,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>300</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -3165,7 +3165,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>305</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -3230,7 +3230,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>285</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -3295,7 +3295,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>310</ns1:speed>
             <ns1:turnRate>0.4</ns1:turnRate>
         </ns1:movement>
@@ -3361,7 +3361,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>290</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -3439,7 +3439,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>280</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -3503,7 +3503,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>305</ns1:speed>
             <ns1:turnRate>0.4</ns1:turnRate>
         </ns1:movement>
@@ -3568,7 +3568,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>300</ns1:speed>
             <ns1:turnRate>0.4</ns1:turnRate>
         </ns1:movement>
@@ -3636,7 +3636,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>305</ns1:speed>
             <ns1:turnRate>0.7</ns1:turnRate>
         </ns1:movement>
@@ -3704,7 +3704,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>305</ns1:speed>
             <ns1:turnRate>1.0</ns1:turnRate>
         </ns1:movement>
@@ -3773,7 +3773,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>315</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -3838,7 +3838,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>320</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -3903,7 +3903,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>300</ns1:speed>
             <ns1:turnRate>0.6</ns1:turnRate>
         </ns1:movement>
@@ -3967,7 +3967,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>295</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -4031,7 +4031,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>295</ns1:speed>
             <ns1:turnRate>0.6</ns1:turnRate>
         </ns1:movement>
@@ -4095,7 +4095,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>315</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -4159,7 +4159,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>290</ns1:speed>
             <ns1:turnRate>0.6</ns1:turnRate>
         </ns1:movement>
@@ -4224,7 +4224,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>295</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -4289,7 +4289,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>305</ns1:speed>
             <ns1:turnRate>0.6</ns1:turnRate>
         </ns1:movement>
@@ -4353,7 +4353,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>305</ns1:speed>
             <ns1:turnRate>0.6</ns1:turnRate>
         </ns1:movement>
@@ -4417,7 +4417,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>315</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -4481,7 +4481,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>300</ns1:speed>
             <ns1:turnRate>0.4</ns1:turnRate>
         </ns1:movement>
@@ -4545,7 +4545,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>285</ns1:speed>
             <ns1:turnRate>0.4</ns1:turnRate>
         </ns1:movement>
@@ -4609,7 +4609,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>290</ns1:speed>
             <ns1:turnRate>0.6</ns1:turnRate>
         </ns1:movement>
@@ -4673,7 +4673,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>300</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -4739,7 +4739,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>295</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -4806,7 +4806,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>305</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -4870,7 +4870,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>315</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -4935,7 +4935,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>300</ns1:speed>
             <ns1:turnRate>0.6</ns1:turnRate>
         </ns1:movement>
@@ -5001,7 +5001,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>300</ns1:speed>
             <ns1:turnRate>0.5</ns1:turnRate>
         </ns1:movement>
@@ -5065,7 +5065,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>300</ns1:speed>
             <ns1:turnRate>0.6</ns1:turnRate>
         </ns1:movement>
@@ -5129,7 +5129,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>290</ns1:speed>
             <ns1:turnRate>0.4</ns1:turnRate>
         </ns1:movement>
@@ -5194,7 +5194,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>290</ns1:speed>
             <ns1:turnRate>0.6</ns1:turnRate>
         </ns1:movement>
@@ -5261,7 +5261,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>295</ns1:speed>
             <ns1:turnRate>0.7</ns1:turnRate>
         </ns1:movement>
@@ -5325,7 +5325,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>295</ns1:speed>
             <ns1:turnRate>0.4</ns1:turnRate>
         </ns1:movement>
@@ -5389,7 +5389,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>290</ns1:speed>
             <ns1:turnRate>0.4</ns1:turnRate>
         </ns1:movement>
@@ -5453,7 +5453,7 @@
                 <ns1:min>0</ns1:min>
             </ns1:gold>
         </ns1:bounty>
-        <ns1:movement ns1:movementCapabilities="MovementCapabilities">
+        <ns1:movement ns1:movementCapabilities="DOTA_UNIT_CAP_MOVE_GROUND">
             <ns1:speed>310</ns1:speed>
             <ns1:turnRate>0.4</ns1:turnRate>
         </ns1:movement>
