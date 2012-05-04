@@ -1,6 +1,5 @@
 package com.github.clentfort.dota2.parser;
 
-import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -37,12 +36,13 @@ public class Parser {
 			Object list;
 			
 			if (type.equals(Units.class))  list = ParserConverter.toUnits(object);
-			if (type.equals(Heroes.class)) list = ParserConverter.toHeroes(object);
+			else if (type.equals(Heroes.class)) list = ParserConverter.toHeroes(object);
 			else return;
 
 			JAXBContext context = JAXBContext.newInstance(type);
 			Marshaller marshaller = context.createMarshaller();
             marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
+            marshaller.setProperty(Marshaller.JAXB_SCHEMA_LOCATION, "http://clentfort.github.com/dota2/dota dota.xsd");
 			marshaller.marshal(list, outputStream);
 			outputStream.flush();
 			

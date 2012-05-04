@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns1:heroes xmlns:ns1="http://clentfort.github.com/dota2/dota">
+<ns1:heroes xmlns:ns1="http://clentfort.github.com/dota2/dota" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://clentfort.github.com/dota2/dota dota.xsd">
     <ns1:hero neutral="false" ancient="false">
         <ns1:name>npc_dota_hero_necrolyte</ns1:name>
         <ns1:level>1</ns1:level>
